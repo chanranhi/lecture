@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "strictNullChecks": false, // null, undefined를 별개 타입으로 간주/모든 타입에 할당 가능. strict 하위옵션으로 strict 에 따라 기본값이 설정됨
+    "moduleDetection": "force", // ts 파일들을 별도의 스코프로 감지함
+    "skipLibCheck": true, //undici-types 타입검사 오류로 임시저장
+  },
+  "include": ["src"]
+}
