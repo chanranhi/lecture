@@ -6,8 +6,5 @@
     "strict": false,
     "moduleDetection": "force",
   },
-  "ts-node": {
-    "esm": true,
-  },
   "include": ["src"]
 }
