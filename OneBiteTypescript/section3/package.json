@@ -1,0 +1,17 @@
+{
+  "name": "section3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "node \"../section1/node_modules/typescript/bin/tsc\"",
+    "tsx": "node \"../section1/node_modules/tsx/dist/cli.mjs\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.15.19"
+  }
+}
